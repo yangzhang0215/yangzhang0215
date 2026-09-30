@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Zhang Zhengyang — building useful software with Python, AI, and thoughtful automation" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/profile-header-mobile.svg" />
+    <img src="./assets/profile-header.svg" width="100%" alt="Zhang Zhengyang — building useful software with Python, AI, and thoughtful automation" />
+  </picture>
 </div>
 
 <p align="center">
@@ -34,24 +37,28 @@ I'm **Zhang Zhengyang**, a developer who enjoys turning real-world problems into
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <h3><a href="https://github.com/yangzhang0215/talk2ledger">Talk2Ledger</a></h3>
       <p>A local-first conversational finance tracker that turns natural-language input into structured transactions.</p>
       <p><code>Python</code> <code>FastAPI</code> <code>React</code> <code>SQLite</code></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td valign="top">
       <h3><a href="https://github.com/yangzhang0215/ml-cuzrcr">ml-cuzrcr</a></h3>
       <p>A reproducible machine-learning workflow for studying process–property relationships in copper alloys.</p>
       <p><code>Python</code> <code>Machine Learning</code> <code>SHAP</code></p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <h3><a href="https://github.com/yangzhang0215/device-trade-ledger">device-trade-ledger</a></h3>
       <p>A desktop ledger for device trading, profit tracking, dividend management, and report export.</p>
       <p><code>Python</code> <code>PySide6</code> <code>SQLite</code></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td valign="top">
       <h3><a href="https://github.com/yangzhang0215/XAUAT-autolib">XAUAT-autolib</a></h3>
       <p>A maintained library-room reservation utility with a portable GUI and macOS command-line workflow.</p>
       <p><code>Python</code> <code>Automation</code> <code>Desktop GUI</code></p>
